@@ -1,26 +1,42 @@
 import numpy as np
+import random
 
 def random_predict(number:int=1) -> int:
     
-    """Рандомно угадываем число
+    """Угадываем число
 
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
 
     Returns:
         int: Число попыток
+    
+    Математический метод поиска:
+        Метод деления числового отрезка пополам
     """
-
-    count = 0
-
-    while True:
+    count = 0             # счетчик попыток
+    divider = 25          # изначальное значение делителя отрезка 
+    predict_number = 50   # т.к. нам известен диапазон чисел, из которого будет загадано искомое число, начинаем поиск с середины отрезка
+    
+    while divider != 0:   # поиск делением отрезка осуществляется до тех пор, пока делитель не будет равен 0. Дальнейшее разделение отрезка бессмысленно
         count += 1
-        predict_number = np.random.randint(1, 500) # предполагаемое число
-        if number == predict_number:
-            break # выход из цикла, если угадали
+        if number > predict_number:
+            predict_number = predict_number + divider   # сокращаем область поиска
+        elif number < predict_number:
+            predict_number = predict_number - divider   # сокращаем область поиска
+        elif number == predict_number:
+            break
+        divider = divider // 2  # уменьшаем абсолютное значение делителя, т.к. область поиска сократилась вдвое
+
+    while number != predict_number:     # если число не было угадано ранее, будем перебирать ближайшие числа по 1.
+        count += 1
+        if number > predict_number:
+            predict_number += 1
+        else:
+            predict_number -= 1
+
     return(count)
 
-print(f'Количество попыток: {random_predict()}')
 
 def score_game(random_predict) -> int:
     """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
