@@ -1,0 +1,23 @@
+
+Pandas documentation:
+https://pandas.pydata.org/pandas-docs/stable/index.html
+
+Pandas info book:
+https://itfy.org/threads/kniga-o-biblioteke-pandas-pandas-rabota-s-dannymi-abdraxmanov-m-i.1262/
+https://habr.com/ru/post/196980/
+
+Article "Feature engineering: six steps to create a successful machine learning model"
+https://hightech.fm/2018/08/09/featureengineering
+
+Read from CSV:  https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
+Write to CSV:   https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
+
+
+
+Visu
+Matplotlib documentation: https://matplotlib.org/
+Seaborn: http://seaborn.pydata.org/examples/index.html
+Plotly:
+    Animated graph: https://www.geeksforgeeks.org/animated-data-visualization-using-plotly-express/         https://plotly.com/python/animations/
+    https://plotly.com/python/statistical-charts/
+    https://plotly.com/python/basic-charts/
