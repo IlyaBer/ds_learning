@@ -12,6 +12,15 @@ https://hightech.fm/2018/08/09/featureengineering
 Read from CSV:  https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
 Write to CSV:   https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
 
+BeautifulSoup(reading from html):
+    https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+API catalog: https://www.programmableweb.com/content/search
+
+Run scripts by cron:
+    schedule:   https://schedule.readthedocs.io/en/stable/
+    Windows planner: https://www.comss.ru/page.php?id=4840
+    Cron: https://tproger.ru/translations/guide-to-cron-jobs/
 
 
 Visu
