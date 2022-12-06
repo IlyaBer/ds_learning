@@ -1,0 +1,8 @@
+
+13 ways of visualisation of correlation:
+            https://datastart.ru/blog/read/seaborn-heatmaps-13-sposobov-nastroit-vizualizaciyu-matricy-korrelyacii
+            
+Regulars:
+            https://tproger.ru/translations/regular-expression-python/
+Check regex and find the most common and often regex:
+            https://ihateregex.io/
