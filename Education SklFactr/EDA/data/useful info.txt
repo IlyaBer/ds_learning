@@ -6,3 +6,12 @@ Regulars:
             https://tproger.ru/translations/regular-expression-python/
 Check regex and find the most common and often regex:
             https://ihateregex.io/
+
+A/B tests:
+            https://blog.skillfactory.ru/glossary/a-b-testirovanie/
+            https://towardsdatascience.com/ab-testing-with-python-e5964dd66143
+            https://nplus1.ru/material/2020/03/27/course-data-science-chapter-8
+
+Logging:
+            https://digitology.tech/docs/python_3/library/logging.handlers.html
+            
