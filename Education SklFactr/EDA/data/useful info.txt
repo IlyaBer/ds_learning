@@ -14,3 +14,9 @@ A/B tests:
 
 Logging:
             https://digitology.tech/docs/python_3/library/logging.handlers.html
+
+
+LightAutoML library:   (autobuild of models)
+            https://github.com/sb-ai-lab/LightAutoML
+
+            https://www.kaggle.com/code/alexryzhkov/lightautoml-competition-baseline/notebook
